@@ -1,0 +1,47 @@
+.app {
+  margin: 5px;
+  padding: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav-items {
+  padding: 0px 20px;
+}
+
+.nav-items > ul {
+  font-size: 20px;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+.nav-items > ul > li:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.res-card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  
+
+}

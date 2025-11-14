@@ -2,12 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './App.css';
 
+
+const styleCard = {
+  backgroundColor: "#f0f0f0"
+}
+
 const RestaurantCard = () => {
   return (
-    <div className="res-card">
+    <div className="res-card" style={styleCard}>
+      <img
+      className = "res-logo"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyMmhIpWCme1elHFfjYyQEBOrZmKTwVPrAc0wY6vQg5GK5EH1NTYDRbd0&s"
+      alt="res-logo"/>
       <h3>
         Nikhil Foods
       </h3>
+      <h5>Biryani, North Indian, Asian </h5>
+      <h5>4.5 Stars</h5>
 
     </div>
   )
@@ -17,7 +28,7 @@ const RestaurantCard = () => {
 const Body = () => {
   return (
     <div className="body">
-      <div className="Search">Search</div>
+      <div className="search">Search</div>
         <div className="res-container">
           <RestaurantCard />
 
